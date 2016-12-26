@@ -1,4 +1,4 @@
-package com.my.app.youyou.mapper;
+package com.my.app.youyou.dal.mapper;
 
 
 import com.my.app.youyou.model.Customer;

@@ -26,7 +26,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
-@MapperScan("com.my.app.youyou.mapper")
+@MapperScan("com.my.app.youyou.dal.mapper")
 public class Application implements EmbeddedServletContainerCustomizer {
 
     public static void main(String[] args) throws Exception {

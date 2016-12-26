@@ -15,7 +15,7 @@
 // * @auther sunzanmei
 // * @date 16/12/26
 // */
-//@MapperScan("com.my.app.youyou.mapper")
+//@MapperScan("com.my.app.youyou.dal.mapper")
 //public class MybatisDataSource {
 //
 //    //DataSource配置

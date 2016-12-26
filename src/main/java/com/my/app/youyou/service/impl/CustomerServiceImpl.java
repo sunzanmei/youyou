@@ -1,6 +1,6 @@
 package com.my.app.youyou.service.impl;
 
-import com.my.app.youyou.mapper.CustomerMapper;
+import com.my.app.youyou.dal.mapper.CustomerMapper;
 import com.my.app.youyou.model.Customer;
 import com.my.app.youyou.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
