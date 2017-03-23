@@ -1,4 +1,7 @@
-package com.my.app.youyou.model;
+/*
+ * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+ */
+package com.my.app.youyou.persistence.entity;
 
 import java.util.Date;
 

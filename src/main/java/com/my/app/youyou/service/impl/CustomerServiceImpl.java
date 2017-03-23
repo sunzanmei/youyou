@@ -1,9 +1,10 @@
 package com.my.app.youyou.service.impl;
 
-import com.my.app.youyou.dal.mapper.CustomerMapper;
-import com.my.app.youyou.model.Customer;
+import javax.annotation.Resource;
+
+import com.my.app.youyou.persistence.mapper.CustomerMapper;
+import com.my.app.youyou.persistence.entity.Customer;
 import com.my.app.youyou.service.CustomerService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class CustomerServiceImpl implements CustomerService {
-    @Autowired
+    @Resource(name = "customerMapper")
     private CustomerMapper customerMapper;
 
     @Override

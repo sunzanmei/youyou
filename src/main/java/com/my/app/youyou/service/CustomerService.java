@@ -1,6 +1,6 @@
 package com.my.app.youyou.service;
 
-import com.my.app.youyou.model.Customer;
+import com.my.app.youyou.persistence.entity.Customer;
 
 /**
  * @auther sunzanmei

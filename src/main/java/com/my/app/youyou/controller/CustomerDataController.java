@@ -1,6 +1,6 @@
 package com.my.app.youyou.controller;
 
-import com.my.app.youyou.model.Customer;
+import com.my.app.youyou.persistence.entity.Customer;
 import com.my.app.youyou.service.CustomerService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

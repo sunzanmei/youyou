@@ -1,7 +1,7 @@
-package com.my.app.youyou.dal.mapper;
+package com.my.app.youyou.persistence.mapper;
 
 
-import com.my.app.youyou.model.Customer;
+import com.my.app.youyou.persistence.entity.Customer;
 
 /**
  * @auther sunzanmei

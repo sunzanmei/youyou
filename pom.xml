@@ -101,7 +101,37 @@
             <version>16.0.1</version>
         </dependency>
     </dependencies>
-
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <activatedProperties>dev</activatedProperties>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <resources>
+                    <resource>
+                        <directory>src/main/profiles/dev</directory>
+                    </resource>
+                </resources>
+            </build>
+        </profile>
+        <profile>
+            <id>online</id>
+            <properties>
+                <activatedProperties>online</activatedProperties>
+            </properties>
+            <build>
+                <resources>
+                    <resource>
+                        <directory>src/main/profiles/online</directory>
+                    </resource>
+                </resources>
+            </build>
+        </profile>
+    </profiles>
     <!--<build>-->
     <!--<finalName>com.myapp.com</finalName>-->
     <!--<plugins>-->

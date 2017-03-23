@@ -13,7 +13,7 @@
                         userId="root" password="NRpt;Rghi1Iv">
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="com.my.app.youyou.dal.entity"
+        <javaModelGenerator targetPackage="com.my.app.youyou.persistence.entity"
                             targetProject="src/main/java">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
@@ -22,7 +22,7 @@
         <sqlMapGenerator targetPackage="mybatis" targetProject="src/main/resources/">
         </sqlMapGenerator>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.my.app.youyou.dal.mapper"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.my.app.youyou.persistence.mapper"
                              targetProject="src/main/java">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
