@@ -32,14 +32,10 @@ public class MybatisDataSource {
     //提供SqlSeesion
     @Bean
     public SqlSessionFactory sqlSessionFactoryBean() throws Exception {
-
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource());
-
         PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-
         sqlSessionFactoryBean.setMapperLocations(resolver.getResources("classpath:mybatis/mapper/*.xml"));
-
         return sqlSessionFactoryBean.getObject();
     }
 
