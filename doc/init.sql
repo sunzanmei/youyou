@@ -31,3 +31,6 @@ tags varchar(20) not null default '' comment '标签',
 gmt_created datetime not null default now() comment '创建时间',
 gmt_modified datetime not null default now() comment '修改时间'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT '用户扩展表';
+
+
+insert into customer values (1,'name_test','pass',0,0,now(),now());

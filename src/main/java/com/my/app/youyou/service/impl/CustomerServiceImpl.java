@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @auther sunzanmei
  * @date 16/12/26
  */
-@Service
+@Service("customerService")
 public class CustomerServiceImpl implements CustomerService {
     @Resource(name = "customerMapper")
     private CustomerMapper customerMapper;

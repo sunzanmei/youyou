@@ -1,5 +1,7 @@
 package com.my.app.youyou.controller;
 
+import javax.annotation.Resource;
+
 import com.my.app.youyou.persistence.entity.Customer;
 import com.my.app.youyou.service.CustomerService;
 import org.apache.log4j.Logger;
@@ -15,7 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/customer")
 public class CustomerDataController {
-    @Autowired
+    @Resource(name = "customerService")
     private CustomerService customerService;
 
     private Logger logger = Logger.getLogger(CustomerDataController.class);
