@@ -12,7 +12,7 @@ import java.util.Date;
 public class Customer {
    private Integer id;
     private String loginName;
-    private String passWord;
+    private String password;
     private int role;
     private int cusStatus;
     private Date gmtCreated;
@@ -23,7 +23,7 @@ public class Customer {
         final StringBuilder sb = new StringBuilder("Customer{");
         sb.append("id=").append(id);
         sb.append(", loginName='").append(loginName).append('\'');
-        sb.append(", passWord='").append(passWord).append('\'');
+        sb.append(", passWord='").append(password).append('\'');
         sb.append(", role=").append(role);
         sb.append(", cusStatus=").append(cusStatus);
         sb.append(", gmtCreated=").append(gmtCreated);
@@ -48,12 +48,12 @@ public class Customer {
         this.loginName = loginName;
     }
 
-    public String getPassWord() {
-        return passWord;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPassWord(String passWord) {
-        this.passWord = passWord;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public int getRole() {
